@@ -1,4 +1,4 @@
-const glados = async () => {
+tconst glados = async () => {
   const cookie = process.env.GLADOS
   if (!cookie) return
   try {
@@ -19,7 +19,6 @@ const glados = async () => {
     return [
       'Checkin OK',
       `${checkin.message}`,
-      `Days ${Number(status.data.days)}`,
     ]
   } catch (error) {
     return [
