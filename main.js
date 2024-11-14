@@ -1,4 +1,4 @@
-tconst glados = async () => {
+const glados = async () => {
   const cookie = process.env.GLADOS
   if (!cookie) return
   try {
